@@ -36,10 +36,13 @@ def send_mail(name, mail):
         )
         print(f"Email Sent Successfully to {name}")
 
-
+test = 0
 now = dt.datetime.now()
 for name in names:
     if data[name]["month"] == now.month and data[name]["day"] == now.day:
+        test = 1
         send_mail(name, data[name]["email"])
 
+if test == 0:
+    print("Its not any one's birthday today")
 # python -m PyInstaller --windowed --onefile  main.py
