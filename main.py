@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 ##################### Extra Hard Starting Project ######################
 
 with open(
-        "F:/computer science/Python Course/Python-Course/Course projects/Birthday Wisher/Birthday Wisher (Day 32) start/birthdays.json",
+        "birthdays.json",
         "r") as file:
     data = json.load(file)
 
@@ -18,9 +18,9 @@ names = [name for name in data.keys()]
 
 def send_mail(name, mail):
     letters = [
-        "F:/computer science/Python Course/Python-Course/Course projects/Birthday Wisher/Birthday Wisher (Day 32) start/letter_templates/letter_1.txt",
-        "F:/computer science/Python Course/Python-Course/Course projects/Birthday Wisher/Birthday Wisher (Day 32) start/letter_templates/letter_2.txt",
-        "F:/computer science/Python Course/Python-Course/Course projects/Birthday Wisher/Birthday Wisher (Day 32) start/letter_templates/letter_3.txt"]
+        "letter_templates/letter_1.txt",
+        "letter_templates/letter_2.txt",
+        "letter_templates/letter_3.txt"]
     letter_file = f"{random.choice(letters)}"
     with open(letter_file, "r") as letter:
         text = letter.read()
