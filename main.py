@@ -23,12 +23,12 @@ def send_mail(name, mail):
     with open(letter_file, "r") as letter:
         text = letter.read()
         text = text.replace("[NAME]", name.title())
-    load_dotenv("F:/computer science/EnvironmentVariables/data.env")
-    with smtplib.SMTP(os.getenv("smtp"), int(os.getenv("port"))) as connection:
+
+    with smtplib.SMTP(os.environ["SMTP"], int(os.environ["PORT"])) as connection:
         connection.starttls()
-        connection.login(os.getenv("my_email"), os.getenv("password"))
+        connection.login(os.environ["MY_EMAIL"], os.environ["MY_PASS"])
         connection.sendmail(
-            from_addr=os.getenv("my_email"),
+            from_addr=os.environ["MY_EMAIL"],
             to_addrs=mail,
             msg="Subject:Happy Birthday\n\n"
                 f"{text}"
