@@ -8,7 +8,7 @@ import smtplib
 
 ##################### Extra Hard Starting Project ######################
 
-with open(r"https://github.com/Adhamzineldin/automatic_scripts/blob/c687a958a1aa54bd9b86dd970090da0c5d8a305e/birthdays.json", "r") as file:
+with open("birthdays.json", "r") as file:
     data = json.load(file)
 
 names = [name for name in data.keys()]
