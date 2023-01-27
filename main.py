@@ -47,4 +47,5 @@ for name in names:
 
 if test == 0:
     print("Its not any one's birthday today")
+
 # python -m PyInstaller --windowed --onefile  main.py
