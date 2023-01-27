@@ -3,15 +3,17 @@ import json
 import os
 import random
 import smtplib
+import pytz
 
 
-
+tz = pytz.timezone('Egypt')
 ##################### Extra Hard Starting Project ######################
 
 with open("birthdays.json", "r") as file:
     data = json.load(file)
 
 names = [name for name in data.keys()]
+
 
 
 def send_mail(name, mail):
@@ -37,7 +39,7 @@ def send_mail(name, mail):
         print(f"Email Sent Successfully to {name}")
 
 test = 0
-now = dt.datetime.now()
+now = dt.datetime.now(tz)
 for name in names:
     if data[name]["month"] == now.month and data[name]["day"] == now.day:
         test = 1
