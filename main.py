@@ -4,7 +4,7 @@ import os
 import random
 import smtplib
 
-from dotenv import load_dotenv
+
 
 ##################### Extra Hard Starting Project ######################
 
