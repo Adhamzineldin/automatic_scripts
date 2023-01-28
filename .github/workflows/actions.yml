@@ -33,5 +33,5 @@ jobs:
           MY_PASS: ${{ secrets.MY_PASS}}
           SMTP: ${{ secrets.SMTP}}
           PORT: ${{ secrets.PORT}}
-        run: python main.py
+        run: python birthday_wisher/main.py
 
