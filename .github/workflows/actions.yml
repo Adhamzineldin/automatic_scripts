@@ -27,7 +27,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: execute py script # run main.py
+      - name: execute birthday_wisher script # run main.py
         env:
           MY_EMAIL: ${{ secrets.MY_EMAIL}}
           MY_PASS: ${{ secrets.MY_PASS}}
@@ -35,3 +35,11 @@ jobs:
           PORT: ${{ secrets.PORT}}
         run: python birthday_wisher/main.py
 
+      - name: execute quotes_mailer script # run main.py
+        env:
+          MY_EMAIL: ${{ secrets.MY_EMAIL}}
+          MY_PASS: ${{ secrets.MY_PASS}}
+          SMTP: ${{ secrets.SMTP}}
+          PORT: ${{ secrets.PORT}}
+          TARGET_EMAIL: ${{ secrets.TARGET_EMAIL}}
+        run: python quote_mailer/main.py
