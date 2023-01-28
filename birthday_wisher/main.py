@@ -9,7 +9,7 @@ import pytz
 tz = pytz.timezone('Egypt')
 ##################### Extra Hard Starting Project ######################
 
-with open("birthdays.json", "r") as file:
+with open("birthday_wisher/birthdays.json", "r") as file:
     data = json.load(file)
 
 names = [name for name in data.keys()]
@@ -18,9 +18,9 @@ names = [name for name in data.keys()]
 
 def send_mail(name, mail):
     letters = [
-        "letter_templates/letter_1.txt",
-        "letter_templates/letter_2.txt",
-        "letter_templates/letter_3.txt"]
+        "birthday_wisher/letter_templates/letter_1.txt",
+        "birthday_wisher/letter_templates/letter_2.txt",
+        "birthday_wisher/letter_templates/letter_3.txt"]
     letter_file = f"{random.choice(letters)}"
     with open(letter_file, "r") as letter:
         text = letter.read()
