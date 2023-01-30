@@ -1,6 +1,6 @@
 import requests
 
-api_key = "eb9c57335c4f1a327f4969b6a765bc67"
+api_key = "fc51dfd03456555e16d19dfa764b1c07"
 my_lat = 30.096655
 my_long = 31.662533
 api_parameters = {
