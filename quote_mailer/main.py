@@ -2,11 +2,19 @@ import datetime as dt
 import smtplib
 from random import randint
 import os
+import requests
 
 Now = dt.datetime.now()
 day_of_week = Now.weekday()
 
+def telegram_bot_sendtext(bot_message):
+    bot_token = '5903068974:AAEk4oBUPbTvn0rtZqMtap-Pj0vj6t7vxp4'
+    bot_chatID = '1018507134'
+    send_text = 'https://api.telegram.org/bot' + bot_token + '/sendMessage?chat_id=' + bot_chatID + '&parse_mode=Markdown&text=' + bot_message
 
+    response = requests.get(send_text)
+
+    return response.json()
 
 with open("quote_mailer/quotes.txt", "r") as quotes:
     text = quotes.readlines()
@@ -24,3 +32,7 @@ try:
     print("Email Send Successfully")
 except Exception as error:
     print(f"Failed to send error: {error}")
+
+text="Motivational Quote:\n"\
+                f"{quote}"
+telegram_bot_sendtext(text)
