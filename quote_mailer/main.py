@@ -33,6 +33,6 @@ try:
 except Exception as error:
     print(f"Failed to send error: {error}")
 
-text="Motivational Quote:\n"\
+text = "Motivational Quote:\n"\
                 f"{quote}"
 telegram_bot_sendtext(text)
