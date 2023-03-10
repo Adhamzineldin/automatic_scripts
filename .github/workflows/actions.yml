@@ -43,5 +43,12 @@ jobs:
           PORT: ${{ secrets.PORT}}
           TARGET_EMAIL: ${{ secrets.TARGET_EMAIL}}
         run: python quote_mailer/main.py
+
       - name: execute rain_alert script
         run: python rain_alert/rain_alert.py
+
+      - name: execute est1 script
+        run: python EST/est1.py
+
+      - name: execute est2 script
+        run: python EST/est1.py
