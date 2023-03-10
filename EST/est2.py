@@ -1,9 +1,8 @@
 import os
 import smtplib
-import webbrowser
 
 import requests
-from colorama import Fore
+
 
 my_code ='60afe172b525831a6220e008'
 def find_grades():
@@ -22,9 +21,9 @@ def find_grades():
 
     elif response.status_code == 404:
         os.system('cls')
-        print(Fore.GREEN)
+
         print("I am Searching can take up to 1 hour based on the person secret code")
-        print(Fore.RED)
+
 
         for i in range(limit):
             number1 += 1
@@ -36,7 +35,7 @@ def find_grades():
             print(msg)
             if lol.status_code != 404:
                 os.system('cls')
-                print(Fore.GREEN + msg)
+
                 print("Exam Secret code is : " + str(number3))
                 gmail_user = 'ziyadfathi5@gmail.com'
                 gmail_password = 'zivavsquabvsgjiw'
@@ -60,14 +59,13 @@ def find_grades():
                     smtp_server.login(gmail_user, gmail_password)
                     smtp_server.sendmail(sent_from, to, email_text)
                     smtp_server.close()
-                    print(Fore.BLUE)
+
                     print("Email sent successfully!")
-                    print(Fore.GREEN)
 
                 except Exception as ex:
-                    print(Fore.RED)
+
                     print("Something went wrong….", ex)
-                    print(Fore.GREEN)
+
 
                 break
 
