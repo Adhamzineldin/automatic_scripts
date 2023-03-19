@@ -15,7 +15,7 @@ def find_grades():
     # gpass = input("input gmail password if u want email send if not leave empty ")
 
     response = requests.get(
-        "https://scores.egyptianscholastictest.com/202211/ESTI/612e54a35bed532694c54fef-xxxx223.pdf")
+        "https://scores.egypt.estests.com/202211/ESTI/612e54a35bed532694c54fef-xxxx223.pdf")
     if response.status_code != 404:
         print("lol")
 
@@ -29,7 +29,7 @@ def find_grades():
             number1 += 1
             number2 = str(number1)
             number3 = number2.zfill(4)
-            msg = "https://scores.egyptianscholastictest.com/" + ez + "/" + est + "/" + idd + "-" + number3 + date + \
+            msg = "https://scores.egypt.estests.com/" + ez + "/" + est + "/" + idd + "-" + number3 + date + \
                   ".pdf"
             lol = requests.get(msg)
             print(msg)
