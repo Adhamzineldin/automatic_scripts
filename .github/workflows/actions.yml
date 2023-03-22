@@ -49,6 +49,6 @@ jobs:
       
       
       - name: execute est1.py
-        run: python EST/ESTI.py
+        run: python EST/est1.py
 
       
