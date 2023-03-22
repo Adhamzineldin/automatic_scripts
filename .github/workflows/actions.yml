@@ -48,7 +48,6 @@ jobs:
         run: python rain_alert/rain_alert.py
       
       
-      - name: execute est1.py
-        run: python EST/est1.py
+      
 
       
