@@ -1,7 +1,7 @@
 import os
 
 import requests
-import whatsapp as wp
+from ..Whatsapp import whatsapp as wp
 api_key = "fc51dfd03456555e16d19dfa764b1c07"
 my_lat = 30.096655
 my_long = 31.662533
