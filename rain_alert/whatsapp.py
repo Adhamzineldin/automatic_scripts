@@ -29,8 +29,11 @@ def send_whatsapp_msg(phone, message):
         driver = webdriver.Chrome(options=chrome_options)
 
         # URL-encode the message to handle spaces and special characters
-        encoded_message = urllib.parse.quote(message)
 
+        html_source = driver.page_source
+        print(html_source)
+
+        encoded_message = urllib.parse.quote(message)
         phone_number = phone
         whatsapp_url = f"https://web.whatsapp.com/send?phone={phone}&text={encoded_message}"
         driver.get(whatsapp_url)
