@@ -24,11 +24,17 @@ jobs:
           sudo apt-get install -y wget
           wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
           sudo apt install ./google-chrome-stable_current_amd64.deb
-          sudo apt-get install -y xvfb # Install virtual display (useful for running headless)
-          sudo apt-get install -y unzip
-          # Install ChromeDriver
-          CHROME_VERSION=$(google-chrome --version | grep -oP '\d+\.\d+\.\d+')
-          wget https://chromedriver.storage.googleapis.com/${CHROME_VERSION}/chromedriver_linux64.zip
+          sudo apt-get install -y xvfb unzip
+          
+          # Get Chrome version and determine the matching ChromeDriver version
+          CHROME_VERSION=$(google-chrome --version | grep -oP '\d+\.\d+\.\d+' | head -1)
+          MAJOR_VERSION=$(echo $CHROME_VERSION | cut -d'.' -f1)
+          
+          # Get the correct ChromeDriver version for the installed Chrome
+          LATEST_DRIVER_VERSION=$(curl -sS chromedriver.storage.googleapis.com/LATEST_RELEASE_$MAJOR_VERSION)
+          
+          # Download and set up ChromeDriver
+          wget https://chromedriver.storage.googleapis.com/${LATEST_DRIVER_VERSION}/chromedriver_linux64.zip
           unzip chromedriver_linux64.zip
           sudo mv chromedriver /usr/local/bin/
           sudo chmod +x /usr/local/bin/chromedriver
