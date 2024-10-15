@@ -3,7 +3,7 @@ import json
 import os
 import random
 import smtplib
-from ..Whatsapp import whatsapp as wp
+from Whatsapp import whatsapp as wp
 
 tz = pytz.timezone('Egypt')
 ##################### Extra Hard Starting Project ######################
