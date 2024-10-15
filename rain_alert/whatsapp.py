@@ -36,7 +36,8 @@ def send_whatsapp_msg(phone, message):
 
         # Wait for the message page to load
         time.sleep(5)
-
+        driver.execute_script("document.dispatchEvent(new KeyboardEvent('keydown', { key: 'Enter', bubbles: true }));")
+        driver.execute_script("document.dispatchEvent(new KeyboardEvent('keyup', { key: 'Enter', bubbles: true }));")
 
         # Click on the button to open WhatsApp Web if needed
         openWebButton = driver.find_element(By.XPATH, '//*[@id="fallback_block"]/div/div/h4[2]/a')
