@@ -24,11 +24,12 @@ chrome_options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64
 
 def send_whatsapp_msg(phone, message):
     print("Sending WhatsApp message...")
+
     print(message)
     try:
         # Initialize Chrome driver
         driver = webdriver.Chrome(options=chrome_options)
-
+        print(driver.execute_script("return navigator.userAgent;"))
         # URL-encode the message to handle spaces and special characters
 
 
