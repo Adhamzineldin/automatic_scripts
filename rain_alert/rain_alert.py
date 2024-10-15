@@ -1,5 +1,7 @@
-import requests
+import os
 
+import requests
+from automatic_scripts import whatsapp as wp
 api_key = "fc51dfd03456555e16d19dfa764b1c07"
 my_lat = 30.096655
 my_long = 31.662533
@@ -17,6 +19,8 @@ def telegram_bot_sendtext(bot_message):
     send_text = 'https://api.telegram.org/bot' + bot_token + '/sendMessage?chat_id=' + bot_chatID + '&parse_mode=Markdown&text=' + bot_message
 
     response = requests.get(send_text)
+
+    wp.send_whatsapp_msg(os.environ["PHONE"], bot_message)
 
     return response.json()
 

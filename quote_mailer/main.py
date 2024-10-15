@@ -3,7 +3,7 @@ import smtplib
 from random import randint
 import os
 import requests
-
+from automatic_scripts import whatsapp as wp
 Now = dt.datetime.now()
 day_of_week = Now.weekday()
 
@@ -19,7 +19,10 @@ def telegram_bot_sendtext(bot_message):
 with open("quote_mailer/quotes.txt", "r") as quotes:
     text = quotes.readlines()
     quote = text[randint(0, len(text) - 1)]
+
+
 try:
+    wp.send_whatsapp_msg(os.environ["PHONE"], quote)
     with smtplib.SMTP(os.environ["SMTP"], int(os.environ["PORT"])) as connection:
         connection.starttls()
         connection.login(os.environ["MY_EMAIL"], os.environ["MY_PASS"])

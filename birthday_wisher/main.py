@@ -4,7 +4,7 @@ import os
 import random
 import smtplib
 import pytz
-
+from automatic_scripts import whatsapp as wp
 
 tz = pytz.timezone('Egypt')
 ##################### Extra Hard Starting Project ######################
@@ -16,7 +16,7 @@ names = [name for name in data.keys()]
 
 
 
-def send_mail(name, mail):
+def send_mail(name, mail, phone):
     letters = [
         "birthday_wisher/letter_templates/letter_1.txt",
         "birthday_wisher/letter_templates/letter_2.txt",
@@ -25,6 +25,8 @@ def send_mail(name, mail):
     with open(letter_file, "r") as letter:
         text = letter.read()
         text = text.replace("[NAME]", name.title())
+
+    wp.send_whatsapp_msg(phone, text)
 
     with smtplib.SMTP(os.environ["SMTP"], int(os.environ["PORT"])) as connection:
         connection.starttls()
@@ -43,7 +45,7 @@ now = dt.datetime.now(tz)
 for name in names:
     if data[name]["month"] == now.month and data[name]["day"] == now.day:
         test = 1
-        send_mail(name, data[name]["email"])
+        send_mail(name, data[name]["email"], data[name]["phone"])
 
 if test == 0:
     print("Its not any one's birthday today")
