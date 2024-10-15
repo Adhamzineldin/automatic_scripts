@@ -1,53 +1,52 @@
-name: run main.py
+name: Run Scripts
 
 on:
-  workflow_dispatch:
+  workflow_dispatch: # Allows manual triggering of the workflow
   schedule:
-    - cron: '2 22 * * *' # At 00:00
-
-
-
-
+    - cron: '2 22 * * *' # At 22:02 UTC every day
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
+      - name: Checkout repository content
+        uses: actions/checkout@v2 # Checkout the repository content to GitHub runner
 
-      - name: checkout repo content
-        uses: actions/checkout@v2 # checkout the repository content to github runner
-
-      - name: setup python
+      - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.10' # install the python version needed
+          python-version: '3.10' # Specify the Python version needed
 
-      - name: install python packages
+      - name: Install Chrome and ChromeDriver
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y chromium-browser
+          sudo apt-get install -y chromium-chromedriver
+          sudo ln -s /usr/bin/chromium-browser /usr/bin/google-chrome
+
+      - name: Install Python packages
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: execute birthday_wisher script # run main.py
+      - name: Execute birthday_wisher script # Run birthday_wisher/main.py
         env:
-          MY_EMAIL: ${{ secrets.MY_EMAIL}}
-          MY_PASS: ${{ secrets.MY_PASS}}
-          SMTP: ${{ secrets.SMTP}}
-          PORT: ${{ secrets.PORT}}
+          MY_EMAIL: ${{ secrets.MY_EMAIL }}
+          MY_PASS: ${{ secrets.MY_PASS }}
+          SMTP: ${{ secrets.SMTP }}
+          PORT: ${{ secrets.PORT }}
+          PHONE: ${{ secrets.PHONE }}
         run: python birthday_wisher/main.py
 
-      - name: execute quotes_mailer script # run main.py
+      - name: Execute quotes_mailer script # Run quote_mailer/main.py
         env:
-          MY_EMAIL: ${{ secrets.MY_EMAIL}}
-          MY_PASS: ${{ secrets.MY_PASS}}
-          SMTP: ${{ secrets.SMTP}}
-          PORT: ${{ secrets.PORT}}
-          TARGET_EMAIL: ${{ secrets.TARGET_EMAIL}}
+          MY_EMAIL: ${{ secrets.MY_EMAIL }}
+          MY_PASS: ${{ secrets.MY_PASS }}
+          SMTP: ${{ secrets.SMTP }}
+          PORT: ${{ secrets.PORT }}
+          TARGET_EMAIL: ${{ secrets.TARGET_EMAIL }}
         run: python quote_mailer/main.py
 
-      - name: execute rain_alert script
+      - name: Execute rain_alert script # Run rain_alert/rain_alert.py
         run: python rain_alert/rain_alert.py
-      
-      
-      
-
-      
