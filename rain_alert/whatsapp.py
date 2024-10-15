@@ -16,7 +16,7 @@ chrome_options = Options()
 current_directory = os.getcwd()
 chrome_options.add_argument(f"user-data-dir={current_directory}/User Data")
 chrome_options.add_argument("profile-directory=Profile 4")
-# chrome_options.add_argument("--headless")
+chrome_options.add_argument("--headless")
 chrome_options.add_argument("--disable-gpu")
 chrome_options.add_argument("--no-sandbox")  # Required for some environments
 chrome_options.add_argument("--disable-dev-shm-usage")
@@ -37,8 +37,8 @@ def send_whatsapp_msg(phone, message):
         phone_number = phone
         whatsapp_url = f"https://web.whatsapp.com/send?phone={phone}&text={encoded_message}"
         driver.get(whatsapp_url)
-        # html_source = driver.page_source
-        # print(html_source)
+        html_source = driver.page_source
+        print(html_source)
 
         time.sleep(10)
 
