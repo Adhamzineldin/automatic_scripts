@@ -31,6 +31,12 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+          
+
+      - name: Execute rain_alert script
+        env:
+          PHONE: ${{ secrets.PHONE }}
+        run: python rain_alert/rain_alert.py
 
       - name: Execute birthday_wisher script
         env:
@@ -51,7 +57,4 @@ jobs:
           TARGET_EMAIL: ${{ secrets.TARGET_EMAIL }}
         run: python quote_mailer/main.py
 
-      - name: Execute rain_alert script
-        env:
-          PHONE: ${{ secrets.PHONE }}
-        run: python rain_alert/rain_alert.py
+
