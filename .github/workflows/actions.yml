@@ -23,7 +23,10 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y chromium-browser
           sudo apt-get install -y chromium-chromedriver
-          sudo ln -s /usr/bin/chromium-browser /usr/bin/google-chrome
+          # Check if the symlink already exists and create it if not
+          if [ ! -f /usr/bin/google-chrome ]; then
+            sudo ln -s /usr/bin/chromium-browser /usr/bin/google-chrome
+          fi
 
       - name: Install Python packages
         run: |
@@ -45,8 +48,11 @@ jobs:
           MY_PASS: ${{ secrets.MY_PASS }}
           SMTP: ${{ secrets.SMTP }}
           PORT: ${{ secrets.PORT }}
+          PHONE: ${{ secrets.PHONE }}
           TARGET_EMAIL: ${{ secrets.TARGET_EMAIL }}
         run: python quote_mailer/main.py
 
       - name: Execute rain_alert script # Run rain_alert/rain_alert.py
+        env:
+          PHONE: ${{ secrets.PHONE }}
         run: python rain_alert/rain_alert.py
