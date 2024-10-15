@@ -3,11 +3,14 @@ import json
 import os
 import random
 import smtplib
+import sys
 
 import pytz
 
+
 import whatsapp as wp
 
+print(os.getcwd())
 
 
 tz = pytz.timezone('Egypt')

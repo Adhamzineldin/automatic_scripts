@@ -9,7 +9,7 @@ from selenium.webdriver.common.by import By
 # Setup Chrome options for headless mode
 chrome_options = Options()
 current_directory = os.getcwd()
-chrome_options.add_argument(f"user-data-dir=../{current_directory}/../User Data")
+chrome_options.add_argument(f"user-data-dir=../{current_directory}/../Whatsapp/User Data")
 chrome_options.add_argument("profile-directory=Profile 4")
 chrome_options.add_argument("--headless")
 chrome_options.add_argument("--disable-gpu")
