@@ -1,20 +1,25 @@
 import os
 import time
 import urllib.parse
+
+import pyautogui
+from selenium.webdriver.support import expected_conditions as EC
+
 from selenium import webdriver
 from selenium.webdriver import Keys
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
+from selenium.webdriver.support.wait import WebDriverWait
 
 # Setup Chrome options for headless mode
 chrome_options = Options()
 current_directory = os.getcwd()
 chrome_options.add_argument(f"user-data-dir={current_directory}/User Data")
 chrome_options.add_argument("profile-directory=Profile 4")
-chrome_options.add_argument("--headless")
-chrome_options.add_argument("--disable-gpu")
-chrome_options.add_argument("--no-sandbox")  # Required for some environments
-chrome_options.add_argument("--disable-dev-shm-usage")
+# chrome_options.add_argument("--headless")
+# chrome_options.add_argument("--disable-gpu")
+# chrome_options.add_argument("--no-sandbox")  # Required for some environments
+# chrome_options.add_argument("--disable-dev-shm-usage")
 
 def send_whatsapp_msg(phone, message):
     try:
@@ -30,10 +35,12 @@ def send_whatsapp_msg(phone, message):
         driver.get(whatsapp_url)
 
         # Wait for the message page to load
-        time.sleep(10)
+        time.sleep(5)
+
 
         # Click on the button to open WhatsApp Web if needed
         openWebButton = driver.find_element(By.XPATH, '//*[@id="fallback_block"]/div/div/h4[2]/a')
+        pyautogui.press('enter')
         openWebButton.click()
         time.sleep(10)
 
@@ -48,4 +55,4 @@ def send_whatsapp_msg(phone, message):
     except Exception as e:
         print("An error occurred: ", str(e))
 
-send_whatsapp_msg("201157000509", "nigger")
+send_whatsapp_msg("201157000509", "niggerrrrrrrrrrrrrrr")
