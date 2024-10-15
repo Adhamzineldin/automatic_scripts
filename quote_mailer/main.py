@@ -3,7 +3,7 @@ import smtplib
 from random import randint
 import os
 import requests
-from automatic_scripts import whatsapp as wp
+import whatsapp as wp
 Now = dt.datetime.now()
 day_of_week = Now.weekday()
 

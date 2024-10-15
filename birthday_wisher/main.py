@@ -4,7 +4,7 @@ import os
 import random
 import smtplib
 import pytz
-from automatic_scripts import whatsapp as wp
+import whatsapp as wp
 
 tz = pytz.timezone('Egypt')
 ##################### Extra Hard Starting Project ######################
