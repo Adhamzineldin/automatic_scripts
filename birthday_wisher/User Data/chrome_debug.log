@@ -1,4 +1,6 @@
-[27676:21464:1015/212521.097:WARNING:chrome_main_delegate.cc(747)] This is Chrome version 129.0.6668.100 (not a warning)
-[27676:21464:1015/212521.138:INFO:chrome_browser_cloud_management_controller.cc(196)] No machine level policy manager exists.
-[26516:7060:1015/212522.786:WARNING:viz_main_impl.cc(85)] VizNullHypothesis is disabled (not a warning)
-[27676:21464:1015/212525.007:ERROR:device_event_log_impl.cc(201)] [21:25:25.007] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+[24636:2320:1016/000346.947:WARNING:chrome_main_delegate.cc(747)] This is Chrome version 129.0.6668.100 (not a warning)
+[24636:2320:1016/000347.008:INFO:chrome_browser_cloud_management_controller.cc(196)] No machine level policy manager exists.
+[16724:24896:1016/000347.132:WARNING:viz_main_impl.cc(85)] VizNullHypothesis is disabled (not a warning)
+[24636:2320:1016/000349.508:ERROR:device_event_log_impl.cc(201)] [00:03:49.509] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+[21496:19408:1016/000408.443:WARNING:sqlite_persistent_store_backend_base.cc(198)] Failed to post task from FlushAndNotifyInBackground@net\extras\sqlite\sqlite_persistent_store_backend_base.cc:248 to client_task_runner_.
+[21496:19408:1016/000408.443:WARNING:sqlite_persistent_store_backend_base.cc(198)] Failed to post task from FlushAndNotifyInBackground@net\extras\sqlite\sqlite_persistent_store_backend_base.cc:248 to client_task_runner_.
