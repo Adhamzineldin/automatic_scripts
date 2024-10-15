@@ -1,25 +1,7 @@
-2024/10/16-00:51:30.435 64a0 Reusing MANIFEST G:\Software Engineering\automated\pythonProject\automatic_scripts\rain_alert\User Data\Profile 4\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2024/10/16-00:51:30.435 64a0 Recovering log #300
-2024/10/16-00:51:30.439 64a0 Reusing old log G:\Software Engineering\automated\pythonProject\automatic_scripts\rain_alert\User Data\Profile 4\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000300.log 
-2024/10/16-00:51:31.493 3804 Level-0 table #305: started
-2024/10/16-00:51:31.494 1c48 Current memtable full; waiting...
-2024/10/16-00:51:31.499 3804 Level-0 table #305: 184936 bytes OK
-2024/10/16-00:51:31.502 3804 Delete type=0 #300
-2024/10/16-00:51:31.503 3804 Level-0 table #307: started
-2024/10/16-00:51:31.514 3804 Level-0 table #307: 265 bytes OK
-2024/10/16-00:51:31.517 3804 Delete type=0 #304
-2024/10/16-00:51:31.518 64a0 Manual compaction at level-0 from '\x00\x80\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x81\x00\x00\x00' @ 0 : 0; will stop at '\x00\x81\x00\x00\x05' @ 309778 : 0
-2024/10/16-00:51:31.518 64a0 Compacting 1@0 + 1@1 files
-2024/10/16-00:51:31.523 64a0 Generated table #308@0: 4009 keys, 84378 bytes
-2024/10/16-00:51:31.523 64a0 Compacted 1@0 + 1@1 files => 84378 bytes
-2024/10/16-00:51:31.526 64a0 compacted to: files[ 0 1 1 0 0 0 0 ]
-2024/10/16-00:51:31.526 64a0 Delete type=2 #305
-2024/10/16-00:51:31.526 64a0 Delete type=2 #307
-2024/10/16-00:51:31.527 64a0 Manual compaction at level-0 from '\x00\x81\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x82\x00\x00\x00' @ 0 : 0; will stop at (end)
-2024/10/16-00:51:31.527 64a0 Manual compaction at level-0 from '\x00\x81\x00\x00\x05' @ 309778 : 0 .. '\x00\x81\x00\x00\x00' @ 0 : 0; will stop at (end)
-2024/10/16-00:51:32.246 64a0 Compacting 1@1 + 1@2 files
-2024/10/16-00:51:32.402 64a0 Generated table #309@1: 49935 keys, 1739773 bytes
-2024/10/16-00:51:32.402 64a0 Compacted 1@1 + 1@2 files => 1739773 bytes
-2024/10/16-00:51:32.465 64a0 compacted to: files[ 0 0 1 0 0 0 0 ]
-2024/10/16-00:51:32.465 64a0 Delete type=2 #302
-2024/10/16-00:51:32.465 64a0 Delete type=2 #308
+2024/10/16-01:07:56.541 6b08 Reusing MANIFEST G:\Software Engineering\automated\pythonProject\automatic_scripts\rain_alert\User Data\Profile 4\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/10/16-01:07:56.542 6b08 Recovering log #309
+2024/10/16-01:07:56.544 6b08 Reusing old log G:\Software Engineering\automated\pythonProject\automatic_scripts\rain_alert\User Data\Profile 4\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000309.log 
+2024/10/16-01:07:56.544 6b08 Delete type=2 #192
+2024/10/16-01:07:56.544 6b08 Delete type=2 #194
+2024/10/16-01:07:56.726 6f24 Manual compaction at level-0 from '\x00Z\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00[\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/10/16-01:07:56.730 6f24 Manual compaction at level-0 from '\x00[\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\\x00\x00\x00' @ 0 : 0; will stop at (end)
