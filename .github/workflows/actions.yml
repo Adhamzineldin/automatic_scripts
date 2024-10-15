@@ -39,7 +39,7 @@ jobs:
           MY_PASS: ${{ secrets.MY_PASS }}
           SMTP: ${{ secrets.SMTP }}
           PORT: ${{ secrets.PORT }}
-          PHONE: ${{ secrets.PHONE }}
+          PHONE: ${{ secrets.PHONE }} # Added PHONE env
         run: python birthday_wisher/main.py
 
       - name: Execute quotes_mailer script # Run quote_mailer/main.py
@@ -48,11 +48,11 @@ jobs:
           MY_PASS: ${{ secrets.MY_PASS }}
           SMTP: ${{ secrets.SMTP }}
           PORT: ${{ secrets.PORT }}
-          PHONE: ${{ secrets.PHONE }}
+          PHONE: ${{ secrets.PHONE }} # Added PHONE env
           TARGET_EMAIL: ${{ secrets.TARGET_EMAIL }}
         run: python quote_mailer/main.py
 
       - name: Execute rain_alert script # Run rain_alert/rain_alert.py
         env:
-          PHONE: ${{ secrets.PHONE }}
+          PHONE: ${{ secrets.PHONE }} # Added PHONE env
         run: python rain_alert/rain_alert.py
