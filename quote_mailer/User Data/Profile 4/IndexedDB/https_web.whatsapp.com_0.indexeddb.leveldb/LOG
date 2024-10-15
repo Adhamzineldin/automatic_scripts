@@ -1,19 +1,15 @@
-2024/10/16-00:43:43.011 31a0 Reusing MANIFEST G:\Software Engineering\automated\pythonProject\automatic_scripts\quote_mailer\User Data\Profile 4\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2024/10/16-00:43:43.011 31a0 Recovering log #194
-2024/10/16-00:43:43.014 31a0 Reusing old log G:\Software Engineering\automated\pythonProject\automatic_scripts\quote_mailer\User Data\Profile 4\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000194.log 
-2024/10/16-00:43:43.015 31a0 Delete type=2 #192
-2024/10/16-00:43:43.095 31a0 Level-0 table #199: started
-2024/10/16-00:43:43.104 31a0 Level-0 table #199: 186021 bytes OK
-2024/10/16-00:43:43.109 31a0 Delete type=0 #194
-2024/10/16-00:43:43.110 1388 Level-0 table #201: started
-2024/10/16-00:43:43.117 1388 Level-0 table #201: 463 bytes OK
-2024/10/16-00:43:43.120 1388 Delete type=0 #198
-2024/10/16-00:43:43.121 31a0 Manual compaction at level-0 from '\x00Z\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00[\x00\x00\x00' @ 0 : 0; will stop at '\x00[\x00\x00\x05' @ 193018 : 0
-2024/10/16-00:43:43.121 31a0 Compacting 2@0 + 1@1 files
-2024/10/16-00:43:43.154 31a0 Generated table #202@0: 85821 keys, 1789678 bytes
-2024/10/16-00:43:43.154 31a0 Compacted 2@0 + 1@1 files => 1789678 bytes
-2024/10/16-00:43:43.157 31a0 compacted to: files[ 0 1 1 0 0 0 0 ]
-2024/10/16-00:43:43.157 31a0 Delete type=2 #199
-2024/10/16-00:43:43.157 31a0 Delete type=2 #201
-2024/10/16-00:43:43.158 31a0 Manual compaction at level-0 from '\x00[\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\\x00\x00\x00' @ 0 : 0; will stop at (end)
-2024/10/16-00:43:43.158 31a0 Manual compaction at level-0 from '\x00[\x00\x00\x05' @ 193018 : 0 .. '\x00[\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/10/16-01:24:31.337 39fc Reusing MANIFEST G:\Software Engineering\automated\pythonProject\automatic_scripts\quote_mailer\User Data\Profile 4\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/10/16-01:24:31.337 39fc Recovering log #200
+2024/10/16-01:24:31.340 39fc Reusing old log G:\Software Engineering\automated\pythonProject\automatic_scripts\quote_mailer\User Data\Profile 4\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000200.log 
+2024/10/16-01:24:31.340 39fc Delete type=2 #196
+2024/10/16-01:24:31.386 6bd8 Level-0 table #205: started
+2024/10/16-01:24:31.395 6bd8 Level-0 table #205: 149195 bytes OK
+2024/10/16-01:24:31.400 6bd8 Delete type=0 #200
+2024/10/16-01:24:31.401 6bd8 Manual compaction at level-0 from '\x00\\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00]\x00\x00\x00' @ 0 : 0; will stop at '\x00]\x00\x00\x05' @ 198376 : 1
+2024/10/16-01:24:31.401 6bd8 Compacting 1@0 + 1@1 files
+2024/10/16-01:24:31.434 6bd8 Generated table #206@0: 86564 keys, 1807405 bytes
+2024/10/16-01:24:31.434 6bd8 Compacted 1@0 + 1@1 files => 1807405 bytes
+2024/10/16-01:24:31.437 6bd8 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/10/16-01:24:31.437 6bd8 Delete type=2 #205
+2024/10/16-01:24:31.438 64c8 Manual compaction at level-0 from '\x00]\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00^\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/10/16-01:24:31.438 64c8 Manual compaction at level-0 from '\x00]\x00\x00\x05' @ 198376 : 1 .. '\x00]\x00\x00\x00' @ 0 : 0; will stop at (end)

@@ -48,4 +48,4 @@ def send_whatsapp_msg(phone, message):
     except Exception as e:
         print("An error occurred: ", str(e))
 
-send_whatsapp_msg("201157000509", "niggerrrrrrrrrrrrrrr")
+send_whatsapp_msg("201157000509", "lol")
