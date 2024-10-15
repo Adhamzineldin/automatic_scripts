@@ -1,6 +1,27 @@
-[16032:21292:1016/003336.544:WARNING:chrome_main_delegate.cc(747)] This is Chrome version 129.0.6668.100 (not a warning)
-[16032:21292:1016/003336.578:INFO:chrome_browser_cloud_management_controller.cc(196)] No machine level policy manager exists.
-[28336:21884:1016/003338.198:WARNING:viz_main_impl.cc(85)] VizNullHypothesis is disabled (not a warning)
-[16032:21292:1016/003340.408:ERROR:device_event_log_impl.cc(201)] [00:33:40.406] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
-[19576:27764:1016/003354.071:WARNING:sqlite_persistent_store_backend_base.cc(198)] Failed to post task from FlushAndNotifyInBackground@net\extras\sqlite\sqlite_persistent_store_backend_base.cc:248 to client_task_runner_.
-[19576:27764:1016/003354.071:WARNING:sqlite_persistent_store_backend_base.cc(198)] Failed to post task from FlushAndNotifyInBackground@net\extras\sqlite\sqlite_persistent_store_backend_base.cc:248 to client_task_runner_.
+[2508:13056:1016/004602.241:WARNING:chrome_main_delegate.cc(747)] This is Chrome version 129.0.6668.100 (not a warning)
+[2508:13056:1016/004602.272:INFO:chrome_browser_cloud_management_controller.cc(196)] No machine level policy manager exists.
+[4624:16224:1016/004603.934:WARNING:viz_main_impl.cc(85)] VizNullHypothesis is disabled (not a warning)
+[2508:13056:1016/004604.482:INFO:CONSOLE(0)] "Launched external handler for 'whatsapp://send/?phone=201157000509&text=niggerrrrrrrrrrrrrrr&type=phone_number&app_absent=1'.", source: https://api.whatsapp.com/send/?phone=201157000509&text=niggerrrrrrrrrrrrrrr&type=phone_number&app_absent=1 (0)
+[2508:13056:1016/004605.996:ERROR:device_event_log_impl.cc(201)] [00:46:05.996] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+[2508:13056:1016/004609.816:INFO:CONSOLE(123)] "Event handler of 'x-storagemutated-1' event must be added on the initial evaluation of worker script.", source: https://static.whatsapp.net/rsrc.php/v3/yh/r/HFwIgckMFlq.js (123)
+[2508:13056:1016/004610.688:INFO:CONSOLE(344)] "WAWebLoggerWorker initialized", source: https://static.whatsapp.net/rsrc.php/v3/yo/r/jt7aXoJMT-C.js (344)
+[2508:13056:1016/004610.688:INFO:CONSOLE(344)] "[storage] start setSchemaVersions from fts worker interface", source: https://static.whatsapp.net/rsrc.php/v3/yo/r/jt7aXoJMT-C.js (344)
+[2508:13056:1016/004610.688:INFO:CONSOLE(344)] "[storage] set schema versions: [model-storage,159,fts-storage,8,jobs-storage,1,lru-media-storage-idb,2,offd-storage,4,qpl-storage,0,signal-storage,6,worker-storage,1,sw,2,wawc,14,wawc_db_enc,2]. is worker? true", source: https://static.whatsapp.net/rsrc.php/v3/yo/r/jt7aXoJMT-C.js (344)
+[2508:13056:1016/004611.766:INFO:CONSOLE(344)] "FTS:Delegate: start indexer", source: https://static.whatsapp.net/rsrc.php/v3/yo/r/jt7aXoJMT-C.js (344)
+[2508:13056:1016/004611.766:INFO:CONSOLE(344)] "FTS:Delegate: start perform init", source: https://static.whatsapp.net/rsrc.php/v3/yo/r/jt7aXoJMT-C.js (344)
+[2508:13056:1016/004611.766:INFO:CONSOLE(344)] "FTS:Delegate: schema versions ready", source: https://static.whatsapp.net/rsrc.php/v3/yo/r/jt7aXoJMT-C.js (344)
+[2508:13056:1016/004611.766:INFO:CONSOLE(344)] "FTS:Delegate: before db initialization", source: https://static.whatsapp.net/rsrc.php/v3/yo/r/jt7aXoJMT-C.js (344)
+[2508:13056:1016/004611.766:INFO:CONSOLE(344)] "[storage] applying schema versions from [0 to 8] for the database: 'fts-storage'", source: https://static.whatsapp.net/rsrc.php/v3/yo/r/jt7aXoJMT-C.js (344)
+[2508:13056:1016/004611.785:INFO:CONSOLE(344)] "[storage] skipping version 160 for table 'media-playback-event' since it is higher than max version to rollout 159", source: https://static.whatsapp.net/rsrc.php/v3/yo/r/jt7aXoJMT-C.js (344)
+[2508:13056:1016/004611.785:INFO:CONSOLE(344)] "[storage] applying schema versions from [0 to 159] for the database: 'model-storage'", source: https://static.whatsapp.net/rsrc.php/v3/yo/r/jt7aXoJMT-C.js (344)
+[2508:13056:1016/004612.493:INFO:CONSOLE(344)] "FTS:Delegate: after db initialization", source: https://static.whatsapp.net/rsrc.php/v3/yo/r/jt7aXoJMT-C.js (344)
+[2508:13056:1016/004612.495:INFO:CONSOLE(344)] "FTS:Manifest Writer: No changes made, current:['3.1', '1'], latest:['3.1', '1']", source: https://static.whatsapp.net/rsrc.php/v3/yo/r/jt7aXoJMT-C.js (344)
+[2508:13056:1016/004612.495:INFO:CONSOLE(344)] "FTS:Delegate: Inited", source: https://static.whatsapp.net/rsrc.php/v3/yo/r/jt7aXoJMT-C.js (344)
+[2508:13056:1016/004612.495:INFO:CONSOLE(344)] "FTS:Delegate: Init indexing ops", source: https://static.whatsapp.net/rsrc.php/v3/yo/r/jt7aXoJMT-C.js (344)
+[2508:13056:1016/004612.498:INFO:CONSOLE(344)] "FTS:Indexer:indexQueuedBatch: Starting new batch size : 1000", source: https://static.whatsapp.net/rsrc.php/v3/yo/r/jt7aXoJMT-C.js (344)
+[2508:13056:1016/004612.498:INFO:CONSOLE(344)] "FTS:Indexer:indexQueuedBatch: Completed", source: https://static.whatsapp.net/rsrc.php/v3/yo/r/jt7aXoJMT-C.js (344)
+[2508:13056:1016/004620.011:INFO:CONSOLE(344)] "FTS:Indexer:indexQueuedBatch: Starting new batch size : 1000", source: https://static.whatsapp.net/rsrc.php/v3/yo/r/jt7aXoJMT-C.js (344)
+[2508:13056:1016/004620.019:INFO:CONSOLE(344)] "FTS:Indexer:indexQueuedBatch: Completed batch", source: https://static.whatsapp.net/rsrc.php/v3/yo/r/jt7aXoJMT-C.js (344)
+[2508:13056:1016/004620.019:INFO:CONSOLE(344)] "FTS:Indexer:indexQueuedBatch: Completed", source: https://static.whatsapp.net/rsrc.php/v3/yo/r/jt7aXoJMT-C.js (344)
+[7140:21352:1016/004625.013:WARNING:sqlite_persistent_store_backend_base.cc(198)] Failed to post task from FlushAndNotifyInBackground@net\extras\sqlite\sqlite_persistent_store_backend_base.cc:248 to client_task_runner_.
+[7140:21352:1016/004625.013:WARNING:sqlite_persistent_store_backend_base.cc(198)] Failed to post task from FlushAndNotifyInBackground@net\extras\sqlite\sqlite_persistent_store_backend_base.cc:248 to client_task_runner_.
