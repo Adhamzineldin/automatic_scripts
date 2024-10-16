@@ -1,5 +1,8 @@
-2024/10/16-17:53:49.191 73c4 Reusing MANIFEST G:\Software Engineering\automated\pythonProject\automatic_scripts\Whatsapp\User Data\Profile 4\Local Storage\leveldb/MANIFEST-000001
-2024/10/16-17:53:49.194 73c4 Recovering log #27
-2024/10/16-17:53:49.195 73c4 Reusing old log G:\Software Engineering\automated\pythonProject\automatic_scripts\Whatsapp\User Data\Profile 4\Local Storage\leveldb/000027.log 
-2024/10/16-17:54:25.273 6ac4 Level-0 table #30: started
-2024/10/16-17:54:25.281 6ac4 Level-0 table #30: 15823 bytes OK
+2024/10/16-19:05:01.731 9f07 Reusing MANIFEST /home/adham-zineldin/stuff/automatic_scripts/Whatsapp/User Data/Profile 4/Local Storage/leveldb/MANIFEST-000001
+2024/10/16-19:05:01.832 9f07 Recovering log #27
+2024/10/16-19:05:01.832 9f07 Level-0 table #29: started
+2024/10/16-19:05:02.014 9f07 Level-0 table #29: 15823 bytes OK
+2024/10/16-19:05:02.026 9f07 Recovering log #29
+2024/10/16-19:05:02.086 9f07 Reusing old log /home/adham-zineldin/stuff/automatic_scripts/Whatsapp/User Data/Profile 4/Local Storage/leveldb/000029.log 
+2024/10/16-19:05:02.309 9f07 Delete type=0 #27
+2024/10/16-19:05:02.314 9f07 Delete type=2 #30
