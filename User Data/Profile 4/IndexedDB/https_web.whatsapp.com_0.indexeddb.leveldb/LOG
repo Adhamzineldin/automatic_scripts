@@ -1,0 +1,42 @@
+2024/10/16-16:15:01.256 39fd Reusing MANIFEST /home/adham-zineldin/stuff/automatic_scripts/User Data/Profile 4/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/10/16-16:15:01.256 39fd Recovering log #212
+2024/10/16-16:15:01.271 39fd Reusing old log /home/adham-zineldin/stuff/automatic_scripts/User Data/Profile 4/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000212.log 
+2024/10/16-16:15:01.271 39fd Delete type=2 #205
+2024/10/16-16:15:01.271 39fd Delete type=2 #210
+2024/10/16-16:15:01.271 39fd Delete type=2 #208
+2024/10/16-16:15:05.755 3a0a Level-0 table #217: started
+2024/10/16-16:15:05.773 3a0b Current memtable full; waiting...
+2024/10/16-16:15:05.819 3a0a Level-0 table #217: 91811 bytes OK
+2024/10/16-16:15:05.861 3a0a Delete type=0 #212
+2024/10/16-16:15:05.861 39ff Manual compaction at level-0 from '\x00T\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00U\x00\x00\x00' @ 0 : 0; will stop at '\x00W\x00\x00\x05' @ 65985 : 1
+2024/10/16-16:15:05.861 39ff Compacting 1@0 + 1@1 files
+2024/10/16-16:15:05.871 39ff Level-0 table #219: started
+2024/10/16-16:15:05.932 39ff Level-0 table #219: 476 bytes OK
+2024/10/16-16:15:06.021 39ff Delete type=0 #216
+2024/10/16-16:15:06.102 39ff Generated table #220@0: 19742 keys, 289901 bytes
+2024/10/16-16:15:06.102 39ff Compacted 1@0 + 1@1 files => 289901 bytes
+2024/10/16-16:15:06.117 39ff compacted to: files[ 1 1 1 0 0 0 0 ]
+2024/10/16-16:15:06.148 3a0c Level-0 table #222: started
+2024/10/16-16:15:06.214 3a0c Level-0 table #222: 619 bytes OK
+2024/10/16-16:15:06.269 3a0c Delete type=0 #218
+2024/10/16-16:15:06.326 39fd Manual compaction at level-0 from '\x00V\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00W\x00\x00\x00' @ 0 : 0; will stop at '\x00U\x00\x00\x05' @ 66105 : 0
+2024/10/16-16:15:06.326 39fd Compacting 2@0 + 1@1 files
+2024/10/16-16:15:06.441 39fd Generated table #223@0: 19736 keys, 289881 bytes
+2024/10/16-16:15:06.441 39fd Compacted 2@0 + 1@1 files => 289881 bytes
+2024/10/16-16:15:06.471 39fd compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/10/16-16:15:06.471 39fd Delete type=2 #222
+2024/10/16-16:15:06.471 39fd Delete type=2 #220
+2024/10/16-16:15:06.486 39ff Manual compaction at level-0 from '\x00U\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00V\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/10/16-16:15:06.491 39ff Manual compaction at level-0 from '\x00W\x00\x00\x05' @ 65985 : 1 .. '\x00U\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/10/16-16:15:06.496 39fd Manual compaction at level-0 from '\x00W\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00X\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/10/16-16:15:06.503 39fd Manual compaction at level-0 from '\x00U\x00\x00\x05' @ 66105 : 0 .. '\x00W\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/10/16-16:15:23.168 39fe Level-0 table #225: started
+2024/10/16-16:15:23.193 39fe Level-0 table #225: 1004354 bytes OK
+2024/10/16-16:15:23.195 39fe Delete type=2 #217
+2024/10/16-16:15:23.195 39fe Delete type=2 #219
+2024/10/16-16:15:23.195 39fe Delete type=0 #221
+2024/10/16-16:15:23.195 39fe Delete type=2 #214
+2024/10/16-16:15:23.209 39fe Compacting 1@0 + 1@1 files
+2024/10/16-16:15:23.235 39fe Generated table #226@0: 44755 keys, 919055 bytes
+2024/10/16-16:15:23.235 39fe Compacted 1@0 + 1@1 files => 919055 bytes
+2024/10/16-16:15:23.237 39fe compacted to: files[ 0 1 1 0 0 0 0 ]

@@ -1,0 +1,38 @@
+[14800:14800:1016/161452.648498:WARNING:chrome_main_delegate.cc(744)] This is Chrome version 130.0.6723.58 (not a warning)
+[14800:14800:1016/161452.974139:INFO:chrome_browser_cloud_management_controller.cc(196)] No machine level policy manager exists.
+[14869:14869:1016/161453.632725:WARNING:gpu_memory_buffer_support_x11.cc(49)] dri3 extension not supported.
+[14869:14869:1016/161453.734198:WARNING:sandbox_linux.cc(430)] InitializeSandbox() called with multiple threads in process gpu-process.
+[14869:14869:1016/161453.948477:WARNING:viz_main_impl.cc(85)] VizNullHypothesis is disabled (not a warning)
+[14800:14800:1016/161455.859276:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.ScreenSaver.GetActive: object_path= /org/freedesktop/ScreenSaver: org.freedesktop.DBus.Error.NotSupported: This method is not part of the idle inhibition specification: https://specifications.freedesktop.org/idle-inhibit-spec/latest/
+[14937:8:1016/161456.100731:ERROR:command_buffer_proxy_impl.cc(131)] ContextResult::kTransientFailure: Failed to send GpuControl.CreateCommandBuffer.
+[14800:14800:1016/161500.918646:INFO:CONSOLE(123)] "Event handler of 'x-storagemutated-1' event must be added on the initial evaluation of worker script.", source: https://static.whatsapp.net/rsrc.php/v3/yd/r/vVqBHr6TlX4.js (123)
+[14800:14800:1016/161500.980362:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.", source:  (0)
+[14800:14800:1016/161506.100826:INFO:CONSOLE(344)] "WAWebLoggerWorker initialized", source: https://static.whatsapp.net/rsrc.php/v3/yo/r/jt7aXoJMT-C.js (344)
+[14800:14800:1016/161506.142369:INFO:CONSOLE(344)] "[storage] start setSchemaVersions from fts worker interface", source: https://static.whatsapp.net/rsrc.php/v3/yo/r/jt7aXoJMT-C.js (344)
+[14800:14800:1016/161506.142412:INFO:CONSOLE(344)] "[storage] set schema versions: [model-storage,159,fts-storage,8,jobs-storage,1,lru-media-storage-idb,2,offd-storage,4,qpl-storage,0,signal-storage,6,worker-storage,1,sw,2,wawc,14,wawc_db_enc,2]. is worker? true", source: https://static.whatsapp.net/rsrc.php/v3/yo/r/jt7aXoJMT-C.js (344)
+[14800:14800:1016/161510.438181:INFO:CONSOLE(344)] "FTS:Delegate: start indexer", source: https://static.whatsapp.net/rsrc.php/v3/yo/r/jt7aXoJMT-C.js (344)
+[14800:14800:1016/161510.438307:INFO:CONSOLE(344)] "FTS:Delegate: start perform init", source: https://static.whatsapp.net/rsrc.php/v3/yo/r/jt7aXoJMT-C.js (344)
+[14800:14800:1016/161510.469910:INFO:CONSOLE(344)] "FTS:Delegate: schema versions ready", source: https://static.whatsapp.net/rsrc.php/v3/yo/r/jt7aXoJMT-C.js (344)
+[14800:14800:1016/161510.478741:INFO:CONSOLE(344)] "FTS:Delegate: before db initialization", source: https://static.whatsapp.net/rsrc.php/v3/yo/r/jt7aXoJMT-C.js (344)
+[14800:14800:1016/161510.478775:INFO:CONSOLE(344)] "[storage] applying schema versions from [0 to 8] for the database: 'fts-storage'", source: https://static.whatsapp.net/rsrc.php/v3/yo/r/jt7aXoJMT-C.js (344)
+[14800:14800:1016/161510.591285:INFO:CONSOLE(344)] "[storage] skipping version 160 for table 'media-playback-event' since it is higher than max version to rollout 159", source: https://static.whatsapp.net/rsrc.php/v3/yo/r/jt7aXoJMT-C.js (344)
+[14800:14800:1016/161510.591571:INFO:CONSOLE(344)] "[storage] applying schema versions from [0 to 159] for the database: 'model-storage'", source: https://static.whatsapp.net/rsrc.php/v3/yo/r/jt7aXoJMT-C.js (344)
+[14800:14800:1016/161521.191731:INFO:CONSOLE(344)] "FTS:Delegate: after db initialization", source: https://static.whatsapp.net/rsrc.php/v3/yo/r/jt7aXoJMT-C.js (344)
+[14800:14800:1016/161521.191765:INFO:CONSOLE(344)] "FTS:Manifest Writer: Set current version to ['3.1', '1']", source: https://static.whatsapp.net/rsrc.php/v3/yo/r/jt7aXoJMT-C.js (344)
+[14800:14800:1016/161521.191773:INFO:CONSOLE(344)] "FTS:Delegate: Inited", source: https://static.whatsapp.net/rsrc.php/v3/yo/r/jt7aXoJMT-C.js (344)
+[14800:14800:1016/161521.191781:INFO:CONSOLE(344)] "FTS:Delegate: Init indexing ops", source: https://static.whatsapp.net/rsrc.php/v3/yo/r/jt7aXoJMT-C.js (344)
+[14800:14800:1016/161521.192373:INFO:CONSOLE(344)] "FTS:Indexer:indexQueuedBatch: Starting new batch size : 1000", source: https://static.whatsapp.net/rsrc.php/v3/yo/r/jt7aXoJMT-C.js (344)
+[14800:14800:1016/161521.214424:INFO:CONSOLE(344)] "Current message batch is from entry 0 of 32...", source: https://static.whatsapp.net/rsrc.php/v3/yo/r/jt7aXoJMT-C.js (344)
+[14800:14800:1016/161522.459340:INFO:CONSOLE(344)] "Finished batch from entry 0 of 32. (Took 1287.9000000003725 msec)", source: https://static.whatsapp.net/rsrc.php/v3/yo/r/jt7aXoJMT-C.js (344)
+[14800:14800:1016/161523.416998:INFO:CONSOLE(344)] "FTS:Indexer:indexQueuedBatch: Completed batch", source: https://static.whatsapp.net/rsrc.php/v3/yo/r/jt7aXoJMT-C.js (344)
+[14800:14800:1016/161523.438803:INFO:CONSOLE(344)] "FTS:Indexer:indexQueuedBatch: Completed batch", source: https://static.whatsapp.net/rsrc.php/v3/yo/r/jt7aXoJMT-C.js (344)
+[14800:14800:1016/161523.440847:INFO:CONSOLE(344)] "FTS:Indexer:indexQueuedBatch: Completed", source: https://static.whatsapp.net/rsrc.php/v3/yo/r/jt7aXoJMT-C.js (344)
+[14800:14800:1016/161528.065268:WARNING:controller_impl.cc(1192)] Background download complete, client: 6, completion type: 0, file size:118577
+[14800:14800:1016/161529.073233:WARNING:controller_impl.cc(1192)] Background download complete, client: 6, completion type: 0, file size:2200227
+[14800:14800:1016/161530.142136:WARNING:controller_impl.cc(1192)] Background download complete, client: 6, completion type: 0, file size:2747170
+[14800:14800:1016/161532.892030:WARNING:controller_impl.cc(1192)] Background download complete, client: 6, completion type: 0, file size:1463571
+[14800:14800:1016/161551.501700:INFO:CONSOLE(344)] "FTS:Indexer:indexQueuedBatch: Starting new batch size : 1000", source: https://static.whatsapp.net/rsrc.php/v3/yo/r/jt7aXoJMT-C.js (344)
+[14800:14800:1016/161551.688697:INFO:CONSOLE(344)] "FTS:Indexer:indexQueuedBatch: Completed batch", source: https://static.whatsapp.net/rsrc.php/v3/yo/r/jt7aXoJMT-C.js (344)
+[14800:14800:1016/161551.814796:INFO:CONSOLE(344)] "FTS:Indexer:indexQueuedBatch: Completed", source: https://static.whatsapp.net/rsrc.php/v3/yo/r/jt7aXoJMT-C.js (344)
+[14800:14800:1016/161556.820051:WARNING:controller_impl.cc(1192)] Background download complete, client: 6, completion type: 1, file size:0
+[14800:14800:1016/161556.880745:WARNING:controller_impl.cc(1192)] Background download complete, client: 6, completion type: 1, file size:0
