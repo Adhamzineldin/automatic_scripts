@@ -1,3 +1,5 @@
-2024/10/16-02:25:12.580 43f8 Reusing MANIFEST G:\Software Engineering\automated\pythonProject\automatic_scripts\rain_alert\User Data\Profile 4\Local Storage\leveldb/MANIFEST-000001
-2024/10/16-02:25:12.584 43f8 Recovering log #24
-2024/10/16-02:25:12.586 43f8 Reusing old log G:\Software Engineering\automated\pythonProject\automatic_scripts\rain_alert\User Data\Profile 4\Local Storage\leveldb/000024.log 
+2024/10/16-17:39:41.863 56ec Reusing MANIFEST G:\Software Engineering\automated\pythonProject\automatic_scripts\rain_alert\User Data\Profile 4\Local Storage\leveldb/MANIFEST-000001
+2024/10/16-17:39:41.867 56ec Recovering log #24
+2024/10/16-17:39:41.867 56ec Level-0 table #26: started
+2024/10/16-17:39:41.872 56ec Level-0 table #26: 15337 bytes OK
+2024/10/16-17:39:41.877 56ec Delete type=0 #24

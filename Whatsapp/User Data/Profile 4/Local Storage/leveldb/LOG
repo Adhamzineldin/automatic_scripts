@@ -1,3 +1,5 @@
-2024/10/15-21:05:58.925 281c Reusing MANIFEST G:\Software Engineering\automated\pythonProject\automatic_scripts\Whatsapp\User Data\Profile 4\Local Storage\leveldb/MANIFEST-000001
-2024/10/15-21:05:58.928 281c Recovering log #9
-2024/10/15-21:05:58.929 281c Reusing old log G:\Software Engineering\automated\pythonProject\automatic_scripts\Whatsapp\User Data\Profile 4\Local Storage\leveldb/000009.log 
+2024/10/16-17:53:49.191 73c4 Reusing MANIFEST G:\Software Engineering\automated\pythonProject\automatic_scripts\Whatsapp\User Data\Profile 4\Local Storage\leveldb/MANIFEST-000001
+2024/10/16-17:53:49.194 73c4 Recovering log #27
+2024/10/16-17:53:49.195 73c4 Reusing old log G:\Software Engineering\automated\pythonProject\automatic_scripts\Whatsapp\User Data\Profile 4\Local Storage\leveldb/000027.log 
+2024/10/16-17:54:25.273 6ac4 Level-0 table #30: started
+2024/10/16-17:54:25.281 6ac4 Level-0 table #30: 15823 bytes OK
