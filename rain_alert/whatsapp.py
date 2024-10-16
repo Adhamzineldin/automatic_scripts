@@ -29,7 +29,7 @@ def send_whatsapp_msg(phone, message):
     try:
         # Initialize Chrome driver
         driver = webdriver.Chrome(options=chrome_options)
-        print(driver.execute_script("return navigator.userAgent;"))
+
         # URL-encode the message to handle spaces and special characters
 
 
@@ -38,8 +38,7 @@ def send_whatsapp_msg(phone, message):
         phone_number = phone
         whatsapp_url = f"https://web.whatsapp.com/send?phone={phone}&text={encoded_message}"
         driver.get(whatsapp_url)
-        html_source = driver.page_source
-        print(html_source)
+
 
         time.sleep(30)
 
@@ -54,4 +53,3 @@ def send_whatsapp_msg(phone, message):
     except Exception as e:
         print("An error occurred: ", str(e))
 
-send_whatsapp_msg("201157000509", "niggerrrrrrrrrrrrrrr")
