@@ -1,26 +1,20 @@
-2024/10/16-02:02:08.120 63dc Reusing MANIFEST G:\Software Engineering\automated\pythonProject\automatic_scripts\rain_alert\User Data\Profile 4\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2024/10/16-02:02:08.120 63dc Recovering log #335
-2024/10/16-02:02:08.122 63dc Reusing old log G:\Software Engineering\automated\pythonProject\automatic_scripts\rain_alert\User Data\Profile 4\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000335.log 
-2024/10/16-02:02:08.123 63dc Delete type=2 #330
-2024/10/16-02:02:09.224 61a4 Level-0 table #340: started
-2024/10/16-02:02:09.225 5528 Current memtable full; waiting...
-2024/10/16-02:02:09.228 61a4 Level-0 table #340: 138534 bytes OK
-2024/10/16-02:02:09.232 61a4 Delete type=0 #335
-2024/10/16-02:02:09.232 61a4 Manual compaction at level-0 from '\x00f\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00g\x00\x00\x00' @ 0 : 0; will stop at '\x00g\x00\x00\x05' @ 353984 : 1
-2024/10/16-02:02:09.232 61a4 Compacting 1@0 + 1@1 files
-2024/10/16-02:02:09.233 61a4 Level-0 table #343: started
-2024/10/16-02:02:09.246 61a4 Level-0 table #343: 511 bytes OK
-2024/10/16-02:02:09.249 61a4 Delete type=0 #339
-2024/10/16-02:02:09.282 61a4 Generated table #342@0: 93995 keys, 1914896 bytes
-2024/10/16-02:02:09.282 61a4 Compacted 1@0 + 1@1 files => 1914896 bytes
-2024/10/16-02:02:09.285 61a4 compacted to: files[ 1 1 1 0 0 0 0 ]
-2024/10/16-02:02:09.286 61a4 Delete type=2 #340
-2024/10/16-02:02:09.286 63dc Manual compaction at level-0 from '\x00g\x00\x00\x05' @ 353984 : 1 .. '\x00g\x00\x00\x00' @ 0 : 0; will stop at '\x00g\x00\x00\x05' @ 354014 : 0
-2024/10/16-02:02:09.286 63dc Compacting 1@0 + 1@1 files
-2024/10/16-02:02:09.318 63dc Generated table #344@0: 93994 keys, 1913642 bytes
-2024/10/16-02:02:09.318 63dc Compacted 1@0 + 1@1 files => 1913642 bytes
-2024/10/16-02:02:09.321 63dc compacted to: files[ 0 1 1 0 0 0 0 ]
-2024/10/16-02:02:09.321 63dc Delete type=2 #342
-2024/10/16-02:02:09.321 63dc Delete type=2 #343
-2024/10/16-02:02:09.322 63dc Manual compaction at level-0 from '\x00g\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00h\x00\x00\x00' @ 0 : 0; will stop at (end)
-2024/10/16-02:02:09.322 63dc Manual compaction at level-0 from '\x00g\x00\x00\x05' @ 354014 : 0 .. '\x00g\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/10/16-02:24:39.462 6ee0 Reusing MANIFEST G:\Software Engineering\automated\pythonProject\automatic_scripts\rain_alert\User Data\Profile 4\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/10/16-02:24:39.463 6ee0 Recovering log #346
+2024/10/16-02:24:39.465 6ee0 Reusing old log G:\Software Engineering\automated\pythonProject\automatic_scripts\rain_alert\User Data\Profile 4\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000346.log 
+2024/10/16-02:24:39.466 6ee0 Delete type=2 #344
+2024/10/16-02:24:39.660 621c Level-0 table #351: started
+2024/10/16-02:24:39.668 621c Level-0 table #351: 147135 bytes OK
+2024/10/16-02:24:39.673 60ac Current memtable full; waiting...
+2024/10/16-02:24:39.673 621c Delete type=0 #346
+2024/10/16-02:24:39.675 6ee0 Level-0 table #353: started
+2024/10/16-02:24:39.681 6ee0 Level-0 table #353: 458 bytes OK
+2024/10/16-02:24:39.685 6ee0 Delete type=0 #350
+2024/10/16-02:24:39.685 6ee0 Manual compaction at level-0 from '\x00k\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00l\x00\x00\x00' @ 0 : 0; will stop at '\x00k\x00\x00\x05' @ 363801 : 0
+2024/10/16-02:24:39.685 6ee0 Compacting 2@0 + 1@1 files
+2024/10/16-02:24:39.724 6ee0 Generated table #354@0: 95495 keys, 1940622 bytes
+2024/10/16-02:24:39.724 6ee0 Compacted 2@0 + 1@1 files => 1940622 bytes
+2024/10/16-02:24:39.728 6ee0 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/10/16-02:24:39.728 6ee0 Delete type=2 #351
+2024/10/16-02:24:39.728 6ee0 Delete type=2 #353
+2024/10/16-02:24:39.728 6b80 Manual compaction at level-0 from '\x00j\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00k\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/10/16-02:24:39.729 6b80 Manual compaction at level-0 from '\x00k\x00\x00\x05' @ 363801 : 0 .. '\x00l\x00\x00\x00' @ 0 : 0; will stop at (end)
