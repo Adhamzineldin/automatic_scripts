@@ -1,33 +1,20 @@
-2024/10/16-16:14:14.053 37c9 Reusing MANIFEST /home/adham-zineldin/stuff/automatic_scripts/User Data/Profile 4/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2024/10/16-16:14:14.053 37c9 Recovering log #203
-2024/10/16-16:14:14.072 37c9 Reusing old log /home/adham-zineldin/stuff/automatic_scripts/User Data/Profile 4/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000203.log 
-2024/10/16-16:14:14.072 37c9 Delete type=2 #194
-2024/10/16-16:14:14.072 37c9 Delete type=2 #197
-2024/10/16-16:14:14.072 37c9 Delete type=2 #199
-2024/10/16-16:14:27.643 37c9 Level-0 table #208: started
-2024/10/16-16:14:27.723 37e4 Current memtable full; waiting...
-2024/10/16-16:14:27.777 37c9 Level-0 table #208: 83406 bytes OK
-2024/10/16-16:14:27.873 37c9 Delete type=0 #203
-2024/10/16-16:14:27.895 37c9 Level-0 table #210: started
-2024/10/16-16:14:27.973 37c9 Level-0 table #210: 572 bytes OK
-2024/10/16-16:14:28.051 37e0 Current memtable full; waiting...
-2024/10/16-16:14:28.089 37c9 Delete type=0 #207
-2024/10/16-16:14:28.120 37e5 Manual compaction at level-0 from '\x00P\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00Q\x00\x00\x00' @ 0 : 0; will stop at '\x00Q\x00\x00\x05' @ 61224 : 0
-2024/10/16-16:14:28.120 37e5 Compacting 2@0 + 1@1 files
-2024/10/16-16:14:28.168 37e5 Level-0 table #213: started
-2024/10/16-16:14:28.296 37e5 Level-0 table #213: 275 bytes OK
-2024/10/16-16:14:28.354 37e5 Delete type=0 #209
-2024/10/16-16:14:28.563 37e5 Generated table #211@0: 17425 keys, 234525 bytes
-2024/10/16-16:14:28.563 37e5 Compacted 2@0 + 1@1 files => 234525 bytes
-2024/10/16-16:14:28.725 37e5 compacted to: files[ 1 1 1 0 0 0 0 ]
-2024/10/16-16:14:28.744 37ca Manual compaction at level-0 from '\x00R\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00S\x00\x00\x00' @ 0 : 0; will stop at '\x00R\x00\x00\x05' @ 61236 : 0
-2024/10/16-16:14:28.744 37ca Compacting 1@0 + 1@1 files
-2024/10/16-16:14:28.893 37ca Generated table #214@0: 17387 keys, 233730 bytes
-2024/10/16-16:14:28.893 37ca Compacted 1@0 + 1@1 files => 233730 bytes
-2024/10/16-16:14:29.006 37ca compacted to: files[ 0 1 1 0 0 0 0 ]
-2024/10/16-16:14:29.006 37ca Delete type=2 #213
-2024/10/16-16:14:29.006 37ca Delete type=2 #211
-2024/10/16-16:14:29.066 37c9 Manual compaction at level-0 from '\x00R\x00\x00\x05' @ 61236 : 0 .. '\x00S\x00\x00\x00' @ 0 : 0; will stop at (end)
-2024/10/16-16:14:29.098 37ca Manual compaction at level-0 from '\x00Q\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00R\x00\x00\x00' @ 0 : 0; will stop at (end)
-2024/10/16-16:14:29.133 37ca Manual compaction at level-0 from '\x00S\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00T\x00\x00\x00' @ 0 : 0; will stop at (end)
-2024/10/16-16:14:29.179 37e0 Manual compaction at level-0 from '\x00Q\x00\x00\x05' @ 61224 : 0 .. '\x00Q\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/10/16-16:37:04.923 55b8 Reusing MANIFEST /home/adham-zineldin/stuff/automatic_scripts/User Data/Profile 4/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/10/16-16:37:04.923 55b8 Recovering log #236
+2024/10/16-16:37:04.923 55b8 Reusing old log /home/adham-zineldin/stuff/automatic_scripts/User Data/Profile 4/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000236.log 
+2024/10/16-16:37:04.923 55b8 Delete type=2 #232
+2024/10/16-16:37:10.030 55b8 Level-0 table #241: started
+2024/10/16-16:37:10.033 55d7 Current memtable full; waiting...
+2024/10/16-16:37:10.098 55b8 Level-0 table #241: 12559 bytes OK
+2024/10/16-16:37:10.180 55b8 Delete type=0 #236
+2024/10/16-16:37:10.203 55b8 Level-0 table #243: started
+2024/10/16-16:37:10.271 55b8 Level-0 table #243: 404 bytes OK
+2024/10/16-16:37:10.321 55b8 Delete type=0 #240
+2024/10/16-16:37:10.325 55d2 Manual compaction at level-0 from '\x00_\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00`\x00\x00\x00' @ 0 : 0; will stop at '\x00_\x00\x00\x05' @ 120352 : 0
+2024/10/16-16:37:10.325 55d2 Compacting 2@0 + 1@1 files
+2024/10/16-16:37:10.580 55d2 Generated table #244@0: 49538 keys, 1022401 bytes
+2024/10/16-16:37:10.580 55d2 Compacted 2@0 + 1@1 files => 1022401 bytes
+2024/10/16-16:37:10.644 55d2 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/10/16-16:37:10.644 55d2 Delete type=2 #243
+2024/10/16-16:37:10.644 55d2 Delete type=2 #241
+2024/10/16-16:37:10.654 55d2 Manual compaction at level-0 from '\x00^\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00_\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/10/16-16:37:10.688 55b9 Manual compaction at level-0 from '\x00_\x00\x00\x05' @ 120352 : 0 .. '\x00`\x00\x00\x00' @ 0 : 0; will stop at (end)
