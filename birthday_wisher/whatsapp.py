@@ -13,7 +13,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 # Setup Chrome options for headless mode
 chrome_options = Options()
 current_directory = os.getcwd()
-user_data_dir = os.path.abspath(os.path.join(current_directory, "../Whatsapp/User Data"))
+user_data_dir = os.path.abspath(os.path.join(current_directory, "../quote_mailer/User Data"))
 
 chrome_options.add_argument(f"user-data-dir={user_data_dir}")
 chrome_options.add_argument("profile-directory=Profile 4")

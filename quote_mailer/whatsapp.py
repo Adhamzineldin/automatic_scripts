@@ -13,14 +13,19 @@ from selenium.webdriver.support.wait import WebDriverWait
 # Setup Chrome options for headless mode
 chrome_options = Options()
 current_directory = os.getcwd()
-user_data_dir = os.path.abspath(os.path.join(current_directory, "../Whatsapp/User Data"))
+user_data_dir = os.path.abspath(os.path.join(current_directory, "../quote_mailer/User Data"))
 
 chrome_options.add_argument(f"user-data-dir={user_data_dir}")
 chrome_options.add_argument("profile-directory=Profile 4")
-# chrome_options.add_argument("--headless")
+chrome_options.add_argument("--headless")
 chrome_options.add_argument("--disable-gpu")
 chrome_options.add_argument("--no-sandbox")  # Required for some environments
 chrome_options.add_argument("--disable-dev-shm-usage")
+# chrome_options.add_argument(
+#     "user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"
+# )
+
+
 # chrome_options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36")
 
 def send_whatsapp_msg(phone, message):
@@ -52,5 +57,3 @@ def send_whatsapp_msg(phone, message):
     except Exception as e:
         print("An error occurred: ", str(e))
 
-
-send_whatsapp_msg("201157000509", "omg")
