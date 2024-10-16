@@ -17,7 +17,7 @@ user_data_dir = os.path.abspath(os.path.join(current_directory, "../Whatsapp/Use
 
 chrome_options.add_argument(f"user-data-dir={user_data_dir}")
 chrome_options.add_argument("profile-directory=Profile 4")
-chrome_options.add_argument("--headless")
+# chrome_options.add_argument("--headless")
 chrome_options.add_argument("--disable-gpu")
 chrome_options.add_argument("--no-sandbox")  # Required for some environments
 chrome_options.add_argument("--disable-dev-shm-usage")
@@ -53,4 +53,4 @@ def send_whatsapp_msg(phone, message):
         print("An error occurred: ", str(e))
 
 
-
+send_whatsapp_msg("201157000509", "omg")
