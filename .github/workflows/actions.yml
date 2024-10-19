@@ -36,6 +36,16 @@ jobs:
         run: |
           python -c "import chromedriver_autoinstaller; chromedriver_autoinstaller.install()"
 
+      - name: Execute quotes_mailer script
+        env:
+          MY_EMAIL: ${{ secrets.MY_EMAIL }}
+          MY_PASS: ${{ secrets.MY_PASS }}
+          SMTP: ${{ secrets.SMTP }}
+          PORT: ${{ secrets.PORT }}
+          PHONE: ${{ secrets.PHONE }}
+          TARGET_EMAIL: ${{ secrets.TARGET_EMAIL }}
+        run: python quote_mailer/main.py
+
       - name: Execute rain_alert script
         env:
           PHONE: ${{ secrets.PHONE }}
@@ -50,12 +60,4 @@ jobs:
           PHONE: ${{ secrets.PHONE }}
         run: python birthday_wisher/main.py
 
-      - name: Execute quotes_mailer script
-        env:
-          MY_EMAIL: ${{ secrets.MY_EMAIL }}
-          MY_PASS: ${{ secrets.MY_PASS }}
-          SMTP: ${{ secrets.SMTP }}
-          PORT: ${{ secrets.PORT }}
-          PHONE: ${{ secrets.PHONE }}
-          TARGET_EMAIL: ${{ secrets.TARGET_EMAIL }}
-        run: python quote_mailer/main.py
+
